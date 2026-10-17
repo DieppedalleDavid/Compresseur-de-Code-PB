@@ -1,0 +1,70 @@
+PB-SuperCodeCompressor v7.3 - listes de mots du fichier Compresseur_PB_Reference.dat
+=====================================================================================
+
+[Français]
+
+Depuis la v7.3, le fichier Compresseur_PB_Reference.dat contient, à sa fin, deux listes
+de mots (française et anglaise) utilisées par la méthode Maximal v6 (formats PBC16 à
+PBC21). Elles contiennent les 150 000 mots les plus fréquents de chaque langue (seulement
+ceux faits de lettres : 147 631 mots en français, 139 503 en anglais), avec leur
+fréquence, arrondie à environ 1 % près.
+
+Origine : wordfreq 3.1.1, de Robyn Speer - https://github.com/rspeer/wordfreq
+Citation : Robyn Speer. (2022). rspeer/wordfreq: v3.0 (v3.0.2). Zenodo.
+           https://doi.org/10.5281/zenodo.7199437
+
+Licence : les données de wordfreq sont sous licence Creative Commons
+Attribution-ShareAlike 4.0 (CC BY-SA 4.0) :
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Modifications : seuls les mots faits de lettres sont gardés, en minuscules ; leurs
+fréquences sont arrondies (centibels) et rangées dans un format compact (voir
+ChargerDictionnaires dans le code source du programme). Les listes ainsi adaptées
+restent sous la licence CC BY-SA 4.0 : on peut les copier, les modifier et les
+redistribuer, en citant leur origine et sous la même licence. La licence MIT du
+programme ne s'applique pas à elles ; elle couvre le reste.
+
+wordfreq contient des données tirées de :
+- Google Books Ngrams (http://books.google.com/ngrams) et Google Books Syntactic Ngrams.
+  Source : Google Books Ngram Viewer (http://books.google.com/ngrams) ;
+- The Leeds Internet Corpus, University of Leeds Centre for Translation Studies
+  (http://corpus.leeds.ac.uk/list.html) ;
+- Wikipedia, the free encyclopedia (http://www.wikipedia.org) ;
+- ParaCrawl, a multilingual Web crawl (https://paracrawl.eu) ;
+- OPUS OpenSubtitles 2018 (http://opus.nlpl.eu/OpenSubtitles.php), dont les données
+  viennent du projet OpenSubtitles (http://www.opensubtitles.org/) ;
+- les listes SUBTLEX (SUBTLEX-US, SUBTLEX-UK...), créées par Marc Brysbaert et al.
+  (http://crr.ugent.be/programs-data/subtitle-frequencies) : SUBTLEX est une donnée
+  librement disponible ;
+- des statistiques de mots tirées de Twitter (aucun contenu de Twitter n'est
+  reproduit), et d'autres sources citées par wordfreq.
+Merci à eux.
+
+
+[English]
+
+Since v7.3, the file Compresseur_PB_Reference.dat ends with two word lists (French and
+English) used by the Maximal v6 method (formats PBC16 to PBC21). They contain the
+150,000 most frequent words of each language (only words made of letters: 147,631
+French words, 139,503 English words), with their frequency, rounded to about 1%.
+
+Source: wordfreq 3.1.1, by Robyn Speer - https://github.com/rspeer/wordfreq
+Citation: Robyn Speer. (2022). rspeer/wordfreq: v3.0 (v3.0.2). Zenodo.
+          https://doi.org/10.5281/zenodo.7199437
+
+License: the wordfreq data is licensed under Creative Commons Attribution-ShareAlike 4.0
+(CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
+
+Changes: only words made of letters are kept, in lowercase; their frequencies are
+rounded (centibels) and stored in a compact format (see ChargerDictionnaires in the
+program's source code). These adapted lists remain under CC BY-SA 4.0: you may copy,
+modify and redistribute them, with attribution and under the same license. The MIT
+license of the program does not apply to them; it covers everything else.
+
+wordfreq contains data extracted from Google Books Ngrams (http://books.google.com/ngrams)
+and Google Books Syntactic Ngrams (source: Google Books Ngram Viewer); the Leeds Internet
+Corpus (University of Leeds Centre for Translation Studies); Wikipedia; ParaCrawl; OPUS
+OpenSubtitles 2018, whose data originates from the OpenSubtitles project
+(http://www.opensubtitles.org/); the SUBTLEX word lists created by Marc Brysbaert et al.
+(SUBTLEX is freely available data); and word statistics from Twitter (no Twitter content
+is republished). Thanks to them.
