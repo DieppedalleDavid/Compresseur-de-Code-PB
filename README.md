@@ -26,8 +26,6 @@ Interface dans le thème de Visual Studio 2010, entièrement dessinée par le pr
   Le réseau calcule en nombres entiers : le résultat est identique sur tous les PC. Le travail est réparti sur tous les cœurs du processeur.
 - **Automatique** : essaie les deux et garde le plus court.
 
-Exemple : le code du programme lui-même (1,17 Mo) tient en **37 869 caractères** au niveau 3, contre 71 673 avec LZMA.
-
 ## Écriture du bloc
 
 - **Unicode** : 15 bits par caractère (idéogrammes chinois et syllabes coréennes), environ 2,5 fois plus court que Base64.
